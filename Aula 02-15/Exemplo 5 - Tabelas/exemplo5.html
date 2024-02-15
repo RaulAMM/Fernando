@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<title>Exemplo 5</title>
+		<meta charset="UTF-8" />
+		
+		<style>
+		
+			table, th, td {
+				border: 1px solid black;
+			}
+			
+			table {
+				border-collapse: collapse;
+				width: 400px;
+				height: 200px;
+				text-align: center;
+				margin-bottom: 50px;
+			}
+		
+		</style>
+	</head>
+	
+	<body>
+		<h1>
+			Tabelas em HTML
+		</h1>
+		
+		<section>
+			<h2>
+				Exemplo de uma tabela simples
+			</h2>
+			
+			<table>
+				<caption>Tabela 1. Funcionários</caption>
+				<tr>
+					<th>Nome</th> 
+					<th>Salário</th> 
+				</tr>
+				<tr>
+					<td>João Roberto</td>
+					<td>R$ 1500,00</td> 
+				</tr>
+				<tr>
+					<td>Maria Luiza</td>
+					<td>R$ 2100,00</td> 
+				</tr>
+				<tr>
+					<td>Juliana Lopes</td>
+					<td>R$ 1300,00</td>
+				</tr>  
+			</table>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>
+				Utilização dos atributos colspan e rowspan
+			</h2>
+			
+			<table>
+				<tr>
+					<th rowspan="2">Produto</th>
+					<th colspan="2">Preço</th>
+					<th rowspan="2">Cor</th>  
+				</tr>
+				<tr>
+					<th>À vista</th>
+					<th>Cartão</th>
+				</tr>
+				<tr>
+					<td>Camisa</td>
+				    <td>R$ 96,5</td>
+				    <td>R$ 90,0</td>
+				    <td>Branca</td>  
+				</tr>
+				<tr>
+					<td>Sapato</td>
+				    <td>R$ 65,0</td>
+				    <td>R$ 62,0</td>
+				    <td>Preto</td>
+				</tr>
+			</table>
+					
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>
+				Utilização dos atributos colspan e rowspan - Exercício
+			</h2>
+		
+			<table>
+				<caption>Relação de notas da disciplina de DW1S5</caption>
+				<tr>
+					<th colspan="6">Tabela de notas</th>
+				</tr>
+				<tr>
+					<th colspan="2">Aluno*</th>
+					<th rowspan="2">N1</th>
+					<th rowspan="2">N2</th>
+					<th rowspan="2">N3</th>
+					<th rowspan="2">N4</th>
+				</tr>
+				<tr>
+					<th>Código</th>
+					<th>Nome</th>
+				</tr>	
+				<tr>
+					<td>01</td>
+					<td>João</td>
+					<td>7,5</td>
+					<td>8,0</td>
+					<td>6,0</td>
+					<td>9,5</td>
+				</tr>
+				<tr>
+					<td>02</td>
+					<td>Maria</td>
+					<td>7,0</td>
+					<td>6,5</td>
+					<td>4,5</td>
+					<td>6,0</td>
+				</tr>
+				<tr>
+					<td colspan="6">*Notas de dois alunos apenas</td>
+				</tr>
+			</table>
+		</section>
+		
+		<hr />
+		
+		<section>
+			<h2>
+				Utilização de tags de seção
+			</h2>
+			
+			<table>
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>Salário *</th> 
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>João Roberto</td>
+						<td>R$ 1500,00</td> 
+					</tr>
+					<tr>
+						<td>Maria Luiza</td>
+						<td>R$ 2100,00</td> 
+					</tr>
+					<tr>
+						<td>Juliana Lopes</td>
+						<td>R$ 1300,00</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="2">* Valores sem considerar bônus</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+						
+	</body>
+
+</html>
