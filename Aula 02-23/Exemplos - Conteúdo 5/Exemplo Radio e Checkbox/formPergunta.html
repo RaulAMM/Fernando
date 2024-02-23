@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<title>Exemplo de questionário</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+	</head>
+	
+	<body>
+		<section>
+			<h1>Responda ao questionário</h1>
+			<form action="processa.php" method="post">
+				
+				<fieldset>
+					<legend>
+						Para definir a fonte calibri da maneira mais adequada para um dado elemento HTML, devemos utilizar a declaração:
+					</legend>
+					<div>
+						<input type="radio" name="p1" value="a" id="p1_a" checked />
+						<label for="p1_a">
+							font-type: calibri;
+						</label>
+					</div>
+					<div>
+						<input type="radio" name="p1" value="b" id="p1_b" />
+						<label for="p1_b">
+							font-style: calibri;
+						</label>
+					</div>
+					<div>
+						<input type="radio" name="p1" value="c" id="p1_c" />
+						<label for="p1_c">
+							font-family: calibri;
+						</label>
+					</div>
+					<div>
+						<input type="radio" name="p1" value="d" id="p1_d" />
+						<label for="p1_d">
+							font-family: calibri, arial;
+						</label>
+					</div>
+					<div>
+						<input type="radio" name="p1" value="e" id="p1_e" />
+						<label for="p1_e">
+							font-family: calibri, sans-serif;
+						</label>
+					</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>
+						Quais dos atributos a seguir são específicos da HTML 5?
+					</legend>
+					<div>
+						<input type="checkbox" name="p2" value="a" id="p2_a" />
+						<label for="p2_a">
+							type
+						</label>
+					</div>
+					<div>
+						<input type="checkbox" name="p2" value="b" id="p2_b" />
+						<label for="p2_b">
+							maxlength
+						</label>
+					</div>
+					<div>
+						<input type="checkbox" name="p2" value="c" id="p2_c" />
+						<label for="p2_c">
+							required
+						</label>
+					</div>
+					<div>
+						<input type="checkbox" name="p2" value="d" id="p2_d" />
+						<label for="p2_d">
+							placeholder
+						</label>
+					</div>
+					<div>
+						<input type="checkbox" name="p2" value="e" id="p2_e" />
+						<label for="p2_e">
+							name
+						</label>
+					</div>
+				</fieldset>
+				
+				<input type="submit" name="botao" value="Enviar" />
+				
+			</form>
+		</section>
+	</body>
+
+</html>

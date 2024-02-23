@@ -1,0 +1,53 @@
+section {
+  border: 1px solid #000;
+  width: 30%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section h1 {
+  margin: 0;
+  text-align: center;  
+}
+
+input[type=text],
+input[type=file],
+input[type=submit],
+input[type=reset],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #000;
+}
+
+input[type=submit],
+input[type=reset] {
+  cursor: pointer;	
+}
+
+input[type=file] {
+  background-color: #fff;	
+}
+
+fieldset {
+  border: 1px solid #000;
+  margin: 8px 0;
+}
+
+textarea {
+  resize: none;
+  height: 70px;
+  transition: height 2s;  
+}
+
+textarea:focus {
+  height: 140px;	
+}
+
+* {
+  box-sizing: border-box;	
+}

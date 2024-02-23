@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<title>Form de cadastro</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+	</head>
+	
+	<body>
+		<section>
+			<h1>Faça seu cadastro</h1>
+			<form action="processa.php" method="get">
+			
+				<label for="nome">
+					Nome:
+				</label>
+				<input type="text" name="nome" id="nome" />
+				
+				<label for="uf">
+					Unidade federativa:
+				</label>
+				<select name="uf" id="uf">
+					<optgroup label="Sudeste">
+						<option value="SP">SP</option>
+						<option value="RJ">RJ</option>
+					</optgroup>
+					<optgroup label="Nordeste">
+						<option value="BA">BA</option>
+					</optgroup>
+					<optgroup label="Sul">
+						<option value="SC">SC</option>
+					</optgroup>
+				</select>
+				
+				<input type="submit" name="botao" value="Enviar" />
+				
+			</form>
+		</section>
+	</body>
+
+</html>

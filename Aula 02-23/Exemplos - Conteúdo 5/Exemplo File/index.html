@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<title>Envio de arquivo</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="estilos.css" />
+	</head>
+	
+	<body>
+		<section>
+			<h2>Envio de arquivo</h2>
+			<form action="processa.php" method="post" enctype="multipart/form-data">
+				<label for="c_desc">
+					Descrição do arquivo:
+				</label>
+				<input type="text" name="desc" id="c_desc" required="required" />
+				<label for="c_arquivo">
+					Arquivo:
+				</label>
+				<input type="file" name="arquivo" id="c_arquivo" accept="image/jpeg" multiple />
+				<input type="submit" name="botao" value="Enviar" />
+				<input type="reset" name="botao" value="Apagar" />
+			</form>
+		</section>
+	</body>
+
+</html>
