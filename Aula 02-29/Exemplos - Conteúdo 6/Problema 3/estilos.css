@@ -1,0 +1,9 @@
+.x, .y {
+	width: 50%;
+	height: 100px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+	section.x { border: 1px solid #000; }
+	section.y { background-color: #aaa; }
+}

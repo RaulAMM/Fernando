@@ -1,0 +1,12 @@
+img {
+	width: 45%;
+	margin: 10px;
+}
+
+@media only screen and (orientation: portrait){
+
+	img {
+		display: block;
+		width: 95%;
+	}
+}
