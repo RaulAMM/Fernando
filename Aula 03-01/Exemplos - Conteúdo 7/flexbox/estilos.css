@@ -1,0 +1,37 @@
+﻿.container {
+  background-color: #00aaff;
+  display: flex;
+  /*
+  flex-direction: row;
+  flex-wrap: wrap;
+  */
+  flex-flow: column wrap;
+  /*quando direction column - default: stretch - usando na direção oposta */
+  align-items: center; 
+  /*width: 30%;*/
+  /*flex-start, flex-end, center, space-between, space-around - usado para alinhamento na mesma direção */
+  justify-content: space-around; 
+
+  /*para ver comportamento na vertical*/
+  height: 500px;
+  
+}
+
+.container div {
+  background-color: #f1f1f1;
+  font-size: 26px;
+  padding: 20px;
+  margin: 10px;
+  /*border: 1px solid black;*/
+}
+
+
+#b {
+  align-self: flex-start;
+  order: 1;
+}
+
+#c {
+  align-self: flex-end;
+  order: 2;
+}
