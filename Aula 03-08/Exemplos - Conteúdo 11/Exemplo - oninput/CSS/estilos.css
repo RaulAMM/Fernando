@@ -1,0 +1,33 @@
+section {
+  /*border: 1px solid #ccc;*/
+  width: 50%;
+  padding: 20px;
+}
+
+input {
+  width: 50%;	
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  outline: none;
+}
+
+span {
+  width: 50%;	
+}
+
+input[type=text]:invalid {
+  border: 1px solid #F00;   	
+}
+
+input[type=submit] {
+  background-color: #ccc;
+  border: none;
+  border-radius: 10px;  
+  font-weight: bold;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;	
+}

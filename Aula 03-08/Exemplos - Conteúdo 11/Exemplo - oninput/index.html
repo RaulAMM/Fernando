@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<title>Exemplo de validação</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+	</head>
+	
+	<body>
+		<section>
+			<h2>Exemplo de validação</h2>
+			<form action="processa.php" method="post" name="form" id="f1">
+				<label for="nome">
+					Nome:
+				</label>
+				<div>
+					<input type="text" name="nome" id="nome" pattern=".{3,}" required="required"/>
+					<span id="erro"></span>
+				</div>
+				<input type="submit" name="submeter" value="OK" />
+			</form>
+		</section>
+		
+		<script src="JS/script.js"></script>
+	</body>
+
+</html>
